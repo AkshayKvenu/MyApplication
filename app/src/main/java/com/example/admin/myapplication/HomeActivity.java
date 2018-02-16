@@ -86,7 +86,7 @@ public class HomeActivity extends AppCompatActivity  implements  GoogleApiClient
         Bundle ab = getIntent().getExtras();
         //Loginphnumber=ab.getString("pnumber");
 
-            Loginphnumber="9744960195";
+            Loginphnumber="";
      //  membertrackfunction();
       // updateLocation();
         Log.e("phnumber",""+Loginphnumber);
