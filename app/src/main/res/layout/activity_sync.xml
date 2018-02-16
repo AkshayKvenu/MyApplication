@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.myapplication.SyncActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Txt"
+            android:layout_marginTop="5dp"
+            android:layout_width="364dp"
+            android:layout_height="40dp"
+            android:text="Added Members"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/T1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/T2"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/T3"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+        android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/T4"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/T5"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/addmember"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="9745761161"
+            android:hint="phonenumber "
+
+            />
+
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:clickable="true"
+            android:onClick="connectedcountingmember"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+
+        android:text="Remove Phone Number " />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Skip"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
